@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yug Mittal — AIML Student · Developer</title>
+  
+  <!-- SEO & OpenGraph Metadata -->
+  <meta name="description" content="Personal developer portfolio of Yug Mittal. AIML Student, Developer, Builder from Gwalior, India. 'I make sense eventually.'">
+  <meta name="keywords" content="Yug Mittal, AIML, Machine Learning, Developer, Portfolio, Gwalior, Computer Vision, Fullstack, AxioVital, Python, React">
+  <meta name="author" content="Yug Mittal">
+  <meta property="og:title" content="Yug Mittal — AIML Student · Developer">
+  <meta property="og:description" content="I build things, break them, learn, and somehow end up with something better.">
+  <meta property="og:type" content="website">
+
+  <!-- Bespoke Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Film Grain / Noise Overlay -->
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-nav" id="site-header">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand" aria-label="Yug Mittal Portfolio Home">
+        <span class="nav-logo">YM.</span>
+        <span class="nav-status-dot" title="Available for collaborations"></span>
+      </a>
+
+      <nav>
+        <ul class="nav-center-menu" id="nav-center-menu">
+          <li><a href="#home" class="nav-link active"><span class="nav-index">01</span> Home</a></li>
+          <li><a href="#about" class="nav-link"><span class="nav-index">02</span> About</a></li>
+          <li><a href="#work" class="nav-link"><span class="nav-index">03</span> Work</a></li>
+          <li><a href="#skills" class="nav-link"><span class="nav-index">04</span> Tools</a></li>
+          <li><a href="#currently" class="nav-link"><span class="nav-index">05</span> Currently</a></li>
+          <li><a href="#beyond" class="nav-link"><span class="nav-index">06</span> Beyond</a></li>
+          <li><a href="#journal" class="nav-link"><span class="nav-index">07</span> Journal</a></li>
+          <li><a href="#contact" class="nav-link"><span class="nav-index">08</span> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Pure Web Audio Ambient Sound Toggle -->
+        <button class="ambient-toggle-btn" id="ambient-sound-toggle" aria-label="Toggle ambient rain sound" title="Shortcut: Press [M]">
+          <div class="sound-wave-bars" id="ambient-wave-indicator" aria-hidden="true">
+            <span class="sound-bar"></span>
+            <span class="sound-bar"></span>
+            <span class="sound-bar"></span>
+          </div>
+          <span id="ambient-status-text">Ambient: OFF</span>
+        </button>
+
+        <!-- Live Clock in Gwalior, India -->
+        <div class="nav-time-clock" id="live-gwalior-clock" title="Local Time in Gwalior (IST)">
+          --:--:-- IST
+        </div>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+          MENU
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT
+       ========================================================================= -->
+  <main>
+
+    <!-- =======================================================================
+         01 — HERO SECTION
+         ======================================================================= -->
+    <section class="section hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content-col">
+            <div class="hero-metadata">
+              <span class="meta-pill">AIML / GWALIOR / INDIA</span>
+              <span class="meta-coords">23.3° N, 78.2° E</span>
+            </div>
+
+            <h1 class="hero-title">
+              I make<br>
+              sense<br>
+              eventually<span class="cursor-char">._</span>
+            </h1>
+
+            <p class="hero-subtext">
+              "I build things, break them, learn, and somehow end up with something better."
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#work" class="btn-editorial-primary">
+                SEE MY WORK <span>→</span>
+              </a>
+              <a href="#about" class="btn-editorial-secondary">
+                ABOUT ME <span>→</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual-col">
+            <div class="hero-visual-frame">
+              
+              <!-- Taped Annotation Top Right -->
+              <div class="hand-note note-top-right">
+                A Better Version Everyday
+              </div>
+
+              <div class="hero-image-wrapper">
+                <img 
+                  src="assets/images/hero-workspace.jpg" 
+                  alt="Atmospheric nighttime workspace desk in Gwalior with laptop, warm lamp glow, notebook and rainy window"
+                  class="hero-image"
+                  loading="eager"
+                >
+              </div>
+
+              <!-- Taped Annotation Bottom Left -->
+              <div class="hand-note note-bottom-left">
+                Good Code Better Days._
+              </div>
+
+              <!-- Coordinates Tag -->
+              <div class="note-coords-tag">
+                Gwalior, MP · 23.3°N 78.2°E
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         02 — ABOUT SECTION
+         ======================================================================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">02 — About</span>
+            <h2 class="section-title">About me</h2>
+          </div>
+          <span class="section-slug">/ about.me</span>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Editorial Narrative -->
+          <div class="about-narrative-col">
+            <div class="about-intro-hand">
+              Just a guy who likes building stuff. <span class="hand-arrow">→</span>
+            </div>
+
+            <div class="about-text-narrative">
+              <p>
+                I'm <strong>Yug Mittal</strong>, a second-year AIML student from Gwalior, Madhya Pradesh. I like <span class="highlight-subtle">technology</span>, <span class="highlight-subtle">programming</span>, <span class="highlight-subtle">AI/ML</span>, <span class="highlight-subtle">drums</span>, <span class="highlight-subtle">Japanese culture</span>, and the idea of building things that actually matter (or at least feel cool).
+              </p>
+              <p>
+                Most days you'll find me coding, exploring random ideas, tweaking neural network pipelines, or overthinking life over a cup of black coffee.
+              </p>
+              <p>
+                I don't believe in superficial tech stacks or chasing buzzwords. I like getting my hands dirty with low-level details, understanding mathematics behind models, and assembling intuitive digital experiences.
+              </p>
+            </div>
+
+            <!-- Sticky Checklist Note -->
+            <div class="sticky-checklist-card">
+              <div class="checklist-title">Personal Compass:</div>
+              <ul class="checklist-items">
+                <li class="checklist-item checked">
+                  <span class="custom-checkbox">✓</span>
+                  <span>Build meaningful software</span>
+                </li>
+                <li class="checklist-item checked">
+                  <span class="custom-checkbox">✓</span>
+                  <span>Master AI / ML pipelines</span>
+                </li>
+                <li class="checklist-item">
+                  <span class="custom-checkbox"></span>
+                  <span>Learn Japanese (日本語 勉強中)</span>
+                </li>
+                <li class="checklist-item">
+                  <span class="custom-checkbox"></span>
+                  <span>Visit Kyoto & Tokyo railway stations</span>
+                </li>
+                <li class="checklist-item checked">
+                  <span class="custom-checkbox">✓</span>
+                  <span>Play Drums & Master Polyrhythms</span>
+                </li>
+                <li class="checklist-item checked">
+                  <span class="custom-checkbox">✓</span>
+                  <span>Stay intensely curious</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Polaroid Cluster with 3D Tilt -->
+          <div class="about-visual-col">
+            <div class="polaroid-cluster">
+              
+              <!-- Polaroid 1: Silhouette / Dusk -->
+              <div class="polaroid polaroid-main" data-tilt>
+                <div class="polaroid-tape"></div>
+                <div class="polaroid-img-box">
+                  <img src="assets/images/about-silhouette.jpg" alt="Silhouette of Yug Mittal on rooftop looking at dusk skyline" class="polaroid-img">
+                </div>
+                <div class="polaroid-caption">Gwalior dusk · rooftop thoughts</div>
+              </div>
+
+              <!-- Polaroid 2: Train Platform -->
+              <div class="polaroid polaroid-sub" data-tilt>
+                <div class="polaroid-tape"></div>
+                <div class="polaroid-img-box">
+                  <img src="assets/images/about-train.jpg" alt="Atmospheric misty Japanese railway station at twilight" class="polaroid-img">
+                </div>
+                <div class="polaroid-caption">Station lines · 35mm grain</div>
+              </div>
+
+              <!-- Centered Note Card -->
+              <div class="polaroid-card-note">
+                <div class="note-phrase">Good Ideas Take Time.</div>
+                <div class="note-japanese-quote">「改善と忍耐」</div>
+              </div>
+
+              <!-- Japanese Quote Sign -->
+              <div class="japanese-closing-sign">
+                いつかきっと、うまくいく。
+                <span>It'll make sense someday.</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         03 — WORK / PROJECTS SECTION
+         ======================================================================= -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">03 — Work</span>
+            <h2 class="section-title">Things I've Built</h2>
+          </div>
+          <span class="section-slug">/ work</span>
+        </div>
+
+        <p class="section-subtitle">
+          "Some real projects, some experiments, all part of the journey."
+        </p>
+
+        <!-- Project Filter Buttons -->
+        <div class="work-filter-bar">
+          <button class="filter-btn active" data-filter="All">All Projects</button>
+          <button class="filter-btn" data-filter="AI">AI & Computer Vision</button>
+          <button class="filter-btn" data-filter="Fullstack">Fullstack / Systems</button>
+          <button class="filter-btn" data-filter="Audio">Audio & DSP</button>
+        </div>
+
+        <!-- Rendered Projects Container -->
+        <div class="projects-editorial-list" id="projects-editorial-container">
+          <!-- Populated dynamically by js/main.js from js/data.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         04 — TOOLS I USE (SKILLS)
+         ======================================================================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">04 — Skills</span>
+            <h2 class="section-title">Tools I Use</h2>
+          </div>
+          <span class="section-slug">/ skills</span>
+        </div>
+
+        <p class="section-subtitle">
+          "Not just tools, but a part of my daily life."
+        </p>
+
+        <div class="tools-section-grid">
+          
+          <!-- Interactive Tools Wall -->
+          <div class="tools-wall-collection" id="tools-wall-grid">
+            <!-- Populated dynamically by js/main.js -->
+          </div>
+
+          <!-- Lined Paper Sticky Note -->
+          <div class="tools-note-col">
+            <div class="lined-paper-note">
+              <div class="lined-paper-tape"></div>
+              <h3 class="paper-heading">Also into:</h3>
+              <ul class="paper-list">
+                <li>Anime & Manga aesthetics</li>
+                <li>Drums & Polyrhythms</li>
+                <li>Japanese (日本語 勉強中)</li>
+                <li>Fresh Pour-over Coffee</li>
+                <li>Late-night Coding Sessions</li>
+                <li>Long Walks & Astrophotography</li>
+                <li>Overthinking Systems</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         05 — CURRENTLY (STATUS BOARD)
+         ======================================================================= -->
+    <section class="section currently-section" id="currently">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">05 — Currently</span>
+            <h2 class="section-title">Currently, <span class="cursor-char">|</span></h2>
+          </div>
+          <span class="section-slug">/ now</span>
+        </div>
+
+        <div class="currently-board-grid">
+          
+          <!-- Status Items Column -->
+          <div class="currently-content-col">
+            <div class="currently-live-status-pill">
+              <span class="status-orbit-dot"></span>
+              <span>Available for Select Research & Collaborations</span>
+            </div>
+
+            <div class="currently-items-list" id="currently-items-container">
+              <!-- Populated dynamically by js/main.js -->
+            </div>
+          </div>
+
+          <!-- Atmospheric Night Window Box -->
+          <div class="currently-visual-col">
+            <div class="night-window-art-frame">
+              <canvas class="window-stars-canvas" id="window-stars-canvas"></canvas>
+              
+              <div class="window-clock-display">
+                <span>GWALIOR / IST</span>
+                <span class="time-big" id="window-live-time">--:--</span>
+              </div>
+
+              <div class="window-neon-sign">
+                A Better<br>Tomorrow.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         06 — BEYOND CODE
+         ======================================================================= -->
+    <section class="section beyond-section" id="beyond">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">06 — Beyond</span>
+            <h2 class="section-title">Beyond Code</h2>
+          </div>
+          <span class="section-slug">/ culture</span>
+        </div>
+
+        <p class="section-subtitle">
+          "Things that fuel the curiosity outside the terminal."
+        </p>
+
+        <div class="beyond-grid" id="beyond-cards-grid">
+          <!-- Populated dynamically by js/main.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         07 — JOURNAL FRAGMENTS
+         ======================================================================= -->
+    <section class="section journal-section" id="journal">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">07 — Journal</span>
+            <h2 class="section-title">Notebook Fragments</h2>
+          </div>
+          <span class="section-slug">/ notebook</span>
+        </div>
+
+        <p class="section-subtitle">
+          "Loose thoughts, learnings, and reflections from the journey."
+        </p>
+
+        <div class="journal-grid" id="journal-fragments-grid">
+          <!-- Populated dynamically by js/main.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         08 — CONTACT & CLOSING SECTION
+         ======================================================================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="editorial-header">
+          <div class="editorial-header-left">
+            <span class="section-num">08 — Contact</span>
+            <h2 class="section-title">Get in Touch</h2>
+          </div>
+          <span class="section-slug">/ contact</span>
+        </div>
+
+        <div class="contact-grid">
+          
+          <div class="contact-info-col">
+            <h2 class="contact-large-heading">
+              Let's build<br>
+              something cool.
+            </h2>
+
+            <p class="contact-subtext">
+              "Open to collaborations, interesting conversations, or just a random tech/anime chat."
+            </p>
+
+            <div class="contact-actions-cluster">
+              
+              <!-- Direct Email Bar with Copy Button -->
+              <div class="email-copy-bar">
+                <span class="email-address-text">yugmittal.dev@gmail.com</span>
+                <button class="copy-email-btn" id="copy-email-action-btn" title="Copy email to clipboard">
+                  COPY EMAIL
+                </button>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-links-row">
+                <a href="https://github.com/yugmittal" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  GitHub ↗
+                </a>
+                <a href="https://linkedin.com/in/yugmittal" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  LinkedIn ↗
+                </a>
+                <a href="https://instagram.com/yugmittal" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  Instagram ↗
+                </a>
+                <a href="https://x.com/yugmittal" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  X (Twitter) ↗
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Quick Message Box -->
+          <div class="contact-form-col">
+            <div class="contact-form-card">
+              <form id="contact-message-form">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">YOUR NAME</label>
+                  <input type="text" id="form-name" class="form-input" placeholder="e.g. Satoshi" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-email" class="form-label">YOUR EMAIL</label>
+                  <input type="email" id="form-email" class="form-input" placeholder="e.g. satoshi@domain.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-msg" class="form-label">YOUR MESSAGE</label>
+                  <textarea id="form-msg" class="form-textarea" placeholder="Let's build an AI pipeline / talk about anime / drums..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                  SEND MESSAGE <span>→</span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Handwritten Sign-off & Final Quote -->
+        <div class="closing-signoff-block">
+          <div class="closing-hand-signature">
+            Same Person, Different Dreams. — Yug
+          </div>
+          <div class="closing-final-quote">
+            "It'll make sense eventually."
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        © 2026 YUG MITTAL · AIML / GWALIOR / INDIA (23.3° N, 78.2° E)
+      </div>
+      <div>
+        PRESS <kbd style="background:var(--bg-card); padding:2px 6px; border:1px solid var(--border-subtle); border-radius:2px; font-family:var(--font-mono);">[M]</kbd> FOR AMBIENT RAIN · <kbd style="background:var(--bg-card); padding:2px 6px; border:1px solid var(--border-subtle); border-radius:2px; font-family:var(--font-mono);">[ESC]</kbd> TO CLOSE MODALS
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL OVERLAY (PROJECT ARCHITECTURE & JOURNAL READER)
+       ========================================================================= -->
+  <div class="modal-overlay" id="global-modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content-box">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal window">✕</button>
+      <div id="modal-inner-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       TOAST NOTIFICATION
+       ========================================================================= -->
+  <div class="toast-notice" id="global-toast-notice" role="status" aria-live="polite">
+    Copied email to clipboard.
+  </div>
+
+  <!-- =========================================================================
+       UNOBTRUSIVE CORNER SOUND CONTROL
+       ========================================================================= -->
+  <aside class="corner-ambient-control" id="corner-sound-widget" aria-label="Ambient sound controller">
+    <button class="corner-sound-btn" id="corner-sound-toggle" aria-label="Toggle nighttime rain ambience" aria-pressed="false" title="Ambient Rain [M]">
+      <div class="corner-sound-icon-box" aria-hidden="true">
+        <svg class="rain-cloud-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>
+          <path class="rain-drop drop-1" d="M8 19v2" stroke-linecap="round"/>
+          <path class="rain-drop drop-2" d="M12 17v2" stroke-linecap="round"/>
+          <path class="rain-drop drop-3" d="M16 19v2" stroke-linecap="round"/>
+        </svg>
+        <div class="corner-sound-wave" id="corner-wave-indicator">
+          <span class="c-bar"></span>
+          <span class="c-bar"></span>
+          <span class="c-bar"></span>
+        </div>
+      </div>
+      <span class="corner-sound-label" id="corner-sound-status">Rain: OFF</span>
+    </button>
+  </aside>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

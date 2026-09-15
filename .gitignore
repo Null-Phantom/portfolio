@@ -1,0 +1,9 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editor directories
+.vscode/
+.idea/
+.gemini/
