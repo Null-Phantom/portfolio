@@ -12,10 +12,10 @@ const PORTFOLIO_DATA = {
     tagline: "I make sense eventually.",
     heroSubtitle: "I build things, break them, learn, and somehow end up with something better.",
     email: "yugmittal.dev@gmail.com",
-    github: "https://github.com/yugmittal",
-    linkedin: "https://linkedin.com/in/yugmittal",
-    instagram: "https://instagram.com/yugmittal",
-    twitter: "https://x.com/yugmittal",
+    github: "https://github.com/Null-Phantom",
+    linkedin: "https://www.linkedin.com/in/yug-mittal-21270537/",
+    instagram: "https://www.instagram.com/yugg__27/",
+    twitter: "https://x.com/yug_mittal55804",
     bio: [
       "I'm Yug Mittal, a second-year AIML student from Gwalior, Madhya Pradesh. I like technology, programming, AI/ML, drums, Japanese culture, and the idea of building things that actually matter (or at least feel cool).",
       "Most days you'll find me coding, exploring random ideas, tweaking neural network pipelines, or overthinking life over a cup of black coffee.",
@@ -53,7 +53,7 @@ const PORTFOLIO_DATA = {
       ],
       tags: ["React", "Node.js", "PostgreSQL", "WebSockets", "Docker", "TailwindCSS"],
       liveUrl: "#",
-      githubUrl: "https://github.com/yugmittal/axiovital",
+      githubUrl: "https://github.com/Null-Phantom/axiovital",
       featured: true,
       accentColor: "#d4a373",
       previewType: "dashboard"
@@ -76,7 +76,7 @@ const PORTFOLIO_DATA = {
       ],
       tags: ["Python", "OpenCV", "MediaPipe", "DeepFace", "Flask", "SQLite"],
       liveUrl: "#",
-      githubUrl: "https://github.com/yugmittal/face-attendance-system",
+      githubUrl: "https://github.com/Null-Phantom/face-attendance-system",
       featured: true,
       accentColor: "#e59866",
       previewType: "vision"
@@ -98,7 +98,7 @@ const PORTFOLIO_DATA = {
       ],
       tags: ["PyTorch", "ONNX", "JavaScript", "WebGL", "FastAPI"],
       liveUrl: "#",
-      githubUrl: "https://github.com/yugmittal/neural-canvas",
+      githubUrl: "https://github.com/Null-Phantom/neural-canvas",
       featured: false,
       accentColor: "#a3b18a",
       previewType: "generative"
@@ -120,7 +120,7 @@ const PORTFOLIO_DATA = {
       ],
       tags: ["Web Audio API", "TypeScript", "Canvas 2D", "DSP"],
       liveUrl: "#",
-      githubUrl: "https://github.com/yugmittal/rhythmsync-dsp",
+      githubUrl: "https://github.com/Null-Phantom/rhythmsync-dsp",
       featured: false,
       accentColor: "#b5838d",
       previewType: "audio"
