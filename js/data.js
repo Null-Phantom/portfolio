@@ -13,7 +13,7 @@ const PORTFOLIO_DATA = {
     heroSubtitle: "I build things, break them, learn, and somehow end up with something better.",
     email: "yugmittal.dev@gmail.com",
     github: "https://github.com/Null-Phantom",
-    linkedin: "https://www.linkedin.com/in/yug-mittal-21270537/",
+    linkedin: "https://www.linkedin.com/in/yug-mittal-21270537b/",
     instagram: "https://www.instagram.com/yugg__27/",
     twitter: "https://x.com/yug_mittal55804",
     bio: [
